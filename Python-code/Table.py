@@ -1,3 +1,5 @@
+# pip install prettytable
+
 from prettytable import PrettyTable
 myTable = PrettyTable(["Student Name", "Class", "Section", "Percentage"])
 myTable.add_row(["Andrew", "X", "B", "91.2%"])
